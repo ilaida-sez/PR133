@@ -1,0 +1,4 @@
+<FileMatch "\.php$">
+    Order Allow, Deny
+    Deny from all
+</FileMatch>
