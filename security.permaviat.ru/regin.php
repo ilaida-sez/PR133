@@ -44,7 +44,7 @@
 					<div class = "sub-name">Повторите пароль:</div>
 					<input name="_passwordCopy" type="password" placeholder="" onkeypress="return PressToEnter(event)"/>
 					<div class = "sub-name">Фотография:</div>
-					<input name="photo" type="file"/>
+					<input name="photo" type="file" accept=".png, jpg, .jpeg, image/png, image/jpeg"/>
 					
 					<a href="login.php">Вернуться</a>
 					<input type="button" class="button" value="Зайти" onclick="RegIn()" style="margin-top: 0px;"/>
